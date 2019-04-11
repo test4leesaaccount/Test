@@ -1,0 +1,25 @@
+{
+    // Authentication header for NLAuth. Leave unset or comment out if using OAuth.
+    "netSuiteUpload.authentication": "NLAuth nlauth_account=4212741_SB1, nlauth_email=poornima@leesa.com, nlauth_signature=Crompton@Way2022, nlauth_role=18",
+  
+    // Script Deployment URL for the deployed vscodeExtensionRestlet.js
+    "netSuiteUpload.restlet": "https://4212741-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=710&deploy=1",
+  
+    // Temporary folder (e.g. C:\\temp or /tmp) - used for diffing files between local and remote.
+    "netSuiteUpload.tempFolder": "C:\\temp",
+  
+    // If using OAuth, fill out these
+    // Oauth NetSuite Key or Token ID
+    // "netSuiteUpload.netSuiteKey": "3425578652a758bcb11f5999fcf2cad66f293c85df88f1e27b21baec3eff25e2",
+    // // Oauth NetSuite Secret
+    // "netSuiteUpload.netSuiteSecret": "218ac2543623d4909419ce3fbf9901f5e6222b5d14a9e59e2f307ddb1b1667b7",
+    // // Oauth NetSuite Consumer Key
+    // "netSuiteUpload.consumerToken": "70e8b47691dfe0d95897ddd339d0f758a7aa68416935c890f6160e1242a3216f",
+    // // Oauth NetSuite Consumer Secret
+    // "netSuiteUpload.consumerSecret": "3b5e504b3695eaf8d37ee2e92983c9a2fc582877e514b539f74e5cb97e7600f7",
+    // // Account number
+    // "netSuiteUpload.realm": "4212741_SB1",
+  
+    // Base NetSuite folder path to upload script to (e.g. "SuiteScripts/Developer"). Default if unset is "SuiteScripts".
+    "netSuiteUpload.rootDirectory": ""
+  }
